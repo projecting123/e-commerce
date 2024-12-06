@@ -1,0 +1,9 @@
+<div class="PRODUCT_CARD" [routerLink]="'/product/' + product().id">
+    <img [src]="product().imageUrl" alt="">
+    <p>{{product().name}}</p>
+    <div class="PRICE_AVAILABILITY_CONTAINER">
+        <p id="PRICE">Rs.{{product().price}}</p>
+        <p *ngIf="product().isAvailable" class="IN_STOCK">In Stock</p>
+        <p *ngIf="!product().isAvailable" class="OUT_OF_STOCK">Out of Stock</p>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="PRODUCT_LIST_CONTAINER">
+    <div class="PRODUCT_BAR">
+        <p id="CATEGORY_NAME">{{ps.products().category}}</p>
+        <div class="INPUT">
+            <input type="text" placeholder="Search..." [(ngModel)]="searchValue">
+        </div>
+    </div>
+
+    <div class="SINGLE_PRODUCT_CONTAINER">
+        @for (product of filteredproducts(); track product.id) {
+        <app-single-product [product]="product"></app-single-product>
+        }
+    </div>
+</div>

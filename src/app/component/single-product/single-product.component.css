@@ -1,0 +1,36 @@
+.PRODUCT_CARD{
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 0 4px 1px #F26B0F;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+}
+
+.PRODUCT_CARD:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background: #D4EBF8;
+    box-shadow: 0 0 4px 2px #81BFDA;
+}
+
+img{
+    width: 100%;
+    height: 80%;
+}
+
+.PRICE_AVAILABILITY_CONTAINER{
+    display: flex;
+    gap: 0.3rem;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+
+.IN_STOCK{
+    color: green;
+}
+
+.OUT_OF_STOCK{
+    color: red;
+}

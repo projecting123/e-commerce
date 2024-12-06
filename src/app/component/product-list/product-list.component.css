@@ -1,0 +1,46 @@
+.PRODUCT_LIST_CONTAINER{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.SINGLE_PRODUCT_CONTAINER{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#CATEGORY_NAME{
+    font-weight: bold;
+    color: #1F509A;
+    text-transform: capitalize;
+}
+
+.PRODUCT_BAR{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    padding: 0.8rem 0;
+}
+
+.INPUT{
+    width: 200px;
+    padding: 0.5rem 0.4rem;
+    border-radius: 15px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.INPUT input{
+    border: none;
+    background: transparent;
+    outline: none;
+    position: relative;
+    z-index: 2;
+    flex: 1;
+}

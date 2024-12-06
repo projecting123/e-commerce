@@ -1,0 +1,22 @@
+.HEADER{
+    display: flex;
+    background: #A59D84;
+    height: 4rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 1rem;
+    box-shadow: 0 0 4px 1px #441752;
+}
+
+.RIGHT_NAVBAR{
+    display: flex;
+    gap: 1rem;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: #FDF7F4;
+}
